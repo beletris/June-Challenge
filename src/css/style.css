@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700&subset=latin-ext');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merienda', cursive;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
