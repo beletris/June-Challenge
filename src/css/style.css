@@ -259,10 +259,9 @@ textarea {
   background-color: rgb(252, 173, 197);
   border: 1px solid rgb(252, 173, 197);
 }
-input [type="submit"], [type="reset"] {
+input[type="submit"], [type="reset"] {
   display: inline-block;
   margin: 30px auto;
-  cursor: pointer;
   padding: 10px;
   max-width: 200px;
   height: 50px;
@@ -270,10 +269,12 @@ input [type="submit"], [type="reset"] {
   border: 1px solid rgb(252, 173, 197);
 }
 input[type="submit"]:hover {
+  cursor: pointer;
   background-color: rgb(152, 168, 119);
   border: 1px solid rgb(152, 168, 119);
 }
 input[type="reset"]:hover {
+  cursor: pointer;
   background-color: rgb(152, 168, 119);
   border: 1px solid rgb(152, 168, 119);
 }
