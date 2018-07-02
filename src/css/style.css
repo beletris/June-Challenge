@@ -28,12 +28,12 @@ nav ul {
 nav ul li {
   display: inline-block;
   position: relative;
-  width: 150px;
+  width: 170px;
 }
 nav ul li a {
   text-decoration: none;
+  text-transform: uppercase;
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
   font-weight: bold;
   line-height: 80px;
   padding: 0 10px;
@@ -63,7 +63,7 @@ nav ul li:hover > ul {
 }
 .nav-logo {
   color: rgb(252, 173, 197);
-  text-shadow: 4px 4px 2px rgb(0, 0, 0);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
   line-height: 80px;
   font-size: 50px;
   padding-left: 30px;
@@ -118,11 +118,43 @@ nav ul li:hover > ul {
   width: 100%;
 }
 .about-section h2 {
+  color: rgb(121, 50, 22);
   font-size: 30px;
-  padding: 20px;
+  padding: 10px;
+  margin: 0;
 }
 .about-section p {
   line-height: 170%;
   font-size: 120%;
+}
 
+.about-section img {
+  margin: 10px auto;
+  display: block;
+}
+
+.gallery-section {
+  width: 100%;
+  margin: 0 auto;
+}
+.gallery-section h2 {
+  color: rgb(121, 50, 22);
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+}
+.gallery-image {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.gallery-image img {
+  display: flex;
+  width: 400px;
+  height: 266px;
+  object-fit: cover;
+}
+.gallery-image img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
 }
