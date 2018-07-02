@@ -6,6 +6,8 @@
     <title>Coffee Corner</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -76,9 +78,24 @@
         <p><span>baristów</span></p>
       </div>
     </section>
+    <section class="contact-section container">
+      <form action="php/form.php" method="POST">
+        <label for="name">Imię</label>
+          <input type="text" name="name" id="name">
+        <label for="email">E-mail</label>
+          <input type="email" name="email" id="email">
+        <label for="message">Wiadomość</label>
+          <textarea name="message" id="message" rows="3" required/></textarea>
+          <input type="submit" name="submit" value="Wyślij">
+          <input type="reset" name="reset" value="Wyczyść">
+
+      </form>
+    </section>
     <footer>
       <p>By <a href="https://github.com/julaineb" target="_blank">Julaine</a>, background by <a href="https://www.freepik.com/free-vector/coffee-pattern-with-hand-drawn-coffee-beans_1079542.htm" target="_blank">Freepik</a>, photos by <a href="https://unsplash.com/@nate_dumlao" target="_blank">Nathan Dumlao</a> and <a href="https://unsplash.com/@merakicreativeco" target="_blank">Kara Michelle</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
   </body>
 
 </html>

@@ -225,6 +225,55 @@ footer a {
   color: rgb(252, 173, 197);
 }
 footer a:hover {
+  color: rgb(152, 168, 119);
+}
+.contact-section {
+  max-width: 600px;
+  margin: 40px auto;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+label {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+input {
+  height: 40px;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
   background-color: rgb(252, 173, 197);
-  color: rgb(121, 50, 22);
+  border: 1px solid rgb(252, 173, 197);
+}
+textarea {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 400px;
+  padding: 10px;
+  background-color: rgb(252, 173, 197);
+  border: 1px solid rgb(252, 173, 197);
+}
+input [type="submit"], [type="reset"] {
+  display: inline-block;
+  margin: 30px auto;
+  cursor: pointer;
+  padding: 10px;
+  max-width: 200px;
+  height: 50px;
+  background-color: rgb(252, 173, 197);
+  border: 1px solid rgb(252, 173, 197);
+}
+input[type="submit"]:hover {
+  background-color: rgb(152, 168, 119);
+  border: 1px solid rgb(152, 168, 119);
+}
+input[type="reset"]:hover {
+  background-color: rgb(152, 168, 119);
+  border: 1px solid rgb(152, 168, 119);
 }
