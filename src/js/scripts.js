@@ -1,6 +1,5 @@
 $('.slick-slider').slick({
   dots: true,
-  arrows: true,
   infinite: true,
   speed: 200,
   slidesToShow: 4,
@@ -13,7 +12,7 @@ $('.slick-slider').slick({
         slidesToScroll: 3,
         infinite: true,
         dots: true,
-        arrows: true,
+        arrows: true
       }
     },
     {

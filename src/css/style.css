@@ -9,6 +9,8 @@ body {
   font-size: 16px;
   color: rgb(65, 65, 65);
   margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* that killed the additional white space when 100% width */
 }
 a {
   text-decoration: none;
@@ -279,4 +281,49 @@ input[type="reset"]:hover {
   cursor: pointer;
   background-color: rgb(152, 168, 119);
   border: 1px solid rgb(152, 168, 119);
+}
+.slider-section {
+  background-color: rgb(121, 50, 22);
+  padding-bottom: 50px;
+}
+.slider-section img {
+  object-fit: cover;
+}
+.slick-slider {
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+.slick-slider img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 600px;
+  width: 400px;
+}
+.slick-slider img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.slick-next {
+  right: 25px;
+}
+.slick-prev {
+  left: 25px;
+}
+.slick-prev:before, .slick-next:before {
+  color: rgb(252, 173, 197);
+  font-size: 25px;
+}
+.slick-dots {
+  margin-bottom: 0;
+}
+.slick-dots li.slick-active button:before {
+  color: rgb(252, 173, 197);
+  font-size: 10px;
+}
+.slick-dots li button:before {
+  font-size: 10px;
+  color: rgb(252, 173, 197);
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
 }
