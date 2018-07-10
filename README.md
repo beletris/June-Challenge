@@ -7,11 +7,12 @@ The whole project includes index.html site only. The scope of the challenge was 
 
 ## Resources
 ### Challenge:
-https://bedeprogramistka.pl/pokaz-sie-swiatu-wyzwanie-z-videopoint
+* https://bedeprogramistka.pl/pokaz-sie-swiatu-wyzwanie-z-videopoint
 
 ### Slider:
-https://kenwheeler.github.io/slick
+* https://kenwheeler.github.io/slick
 
 ### Images:
-https://unsplash.com
-https://freepik.com
+* https://unsplash.com
+* https://freepik.com
+* https://fontawesome.com
